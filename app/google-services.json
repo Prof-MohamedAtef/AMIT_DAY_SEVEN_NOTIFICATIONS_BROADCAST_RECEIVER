@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "484445368329",
+    "project_id": "androidcourse-577e8",
+    "storage_bucket": "androidcourse-577e8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:484445368329:android:6fff6631e6ad200ff2c8d8",
+        "android_client_info": {
+          "package_name": "mo.atef.amit.amit_dayseven"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "484445368329-8iie9u0k29ppp85t0a62dft2qrh503sf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyASQ6Kl3pkDL5WilOUBVSn4yb7qgJjxwX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "484445368329-8iie9u0k29ppp85t0a62dft2qrh503sf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
