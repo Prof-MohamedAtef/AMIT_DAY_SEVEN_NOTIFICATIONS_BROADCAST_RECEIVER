@@ -1,9 +1,9 @@
 # AMIT_DAY_SEVEN_NOTIFICATIONS_BROADCAST_RECEIVER
 ### Project includes:
-1. Notification Builder for: BigText, BigPicture, Messages, Emails, and Lines.
-2. BroadcastReciever for: Airplane mode changes, and Wifi connection changes.
+## 1. Notification Builder for: BigText, BigPicture, Messages, Emails, and Lines.
+## 2. BroadcastReciever for: Airplane mode changes, and Wifi connection changes.
 
-# 3 Firebase Messageing Service
+## 3 Firebase Messageing Service
 
 3.1 initialize your project of Firebase and set it enabled on Google Cloud. 
 
