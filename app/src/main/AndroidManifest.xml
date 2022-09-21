@@ -10,7 +10,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AMITDaySeven">
         <activity
-            android:name=".views.activities.BigNotificationActivity"
+            android:name=".views.activities.EmailActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,13 +19,15 @@
             </intent-filter>
         </activity>
         <activity
+            android:name=".views.activities.BigNotificationActivity"
+            android:exported="true">
+        </activity>
+        <activity
             android:name=".views.activities.Notifications"
             android:exported="false" />
         <activity
             android:name=".views.activities.MainActivity"
-            android:exported="true">
-
-        </activity>
+            android:exported="true"></activity>
     </application>
 
 </manifest>
