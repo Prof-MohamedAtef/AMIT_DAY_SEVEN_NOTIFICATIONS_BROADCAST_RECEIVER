@@ -14,6 +14,7 @@ import android.view.View;
 
 import mo.atef.amit.amit_dayseven.R;
 import mo.atef.amit.amit_dayseven.databinding.ActivityBigNotificationBinding;
+import mo.atef.amit.amit_dayseven.util.Util;
 
 public class BigNotificationActivity extends AppCompatActivity {
 
@@ -42,7 +43,10 @@ public class BigNotificationActivity extends AppCompatActivity {
                 .setContentTitle("AMIT")
                 .setContentText("Hi, Our session has started!")
                 .setSmallIcon(android.R.drawable.ic_dialog_email)
-                .setStyle(new NotificationCompat.BigTextStyle().bigText("Attendees: Mohamed Atef, Ahmed Samy, Mohamed Adel, Yara Sherif, Aya Eyad, Maha, Main, Mahmoud Abdelmaksoud, Mousheraa, Radwa, Adham"))
+//                .setStyle(new NotificationCompat.BigTextStyle().bigText("Attendees: Mohamed Atef, Ahmed Samy, Mohamed Adel, Yara Sherif, Aya Eyad, Maha, Main, Mahmoud Abdelmaksoud, Mousheraa, Radwa, Adham"))
+                .setStyle(new NotificationCompat.BigPictureStyle()
+                        .bigPicture(Util.convertToBitmap(getResources().getDrawable(R.drawable.mango)))
+                        .bigLargeIcon(null))
                 .setPriority(NotificationCompat.PRIORITY_HIGH)
                 .setContentIntent(pendingIntent)
                 .setAutoCancel(true);
