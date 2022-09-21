@@ -57,6 +57,6 @@ use the following json object to send your push notification via Firebase from P
         
         "organization" :"Elementary school"
         
-      }
+       }
    
-   }
+     }
